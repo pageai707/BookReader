@@ -1,0 +1,10 @@
+# BookReader metadata for this folder and the PDFs in it.
+# Edit freely: `npm run sync` only appends entries for new PDFs and never changes what you wrote.
+
+[library]
+title = "BookReader"            # shown in the site header
+description = "Papers and books on machine learning and systems."
+
+[folder]
+title = "All documents"       # display name on the site
+description = ""

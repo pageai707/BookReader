@@ -1,0 +1,22 @@
+{
+  "name": "bookreader",
+  "private": true,
+  "type": "module",
+  "description": "A personal PDF library on GitHub Pages: search, browse and read PDFs in the browser.",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "add": "node scripts/add.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "test": "node --test tests/*.test.js",
+    "sync": "node scripts/sync.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.10",
+    "pdfjs-dist": "6.3.289",
+    "smol-toml": "^1.9.0"
+  }
+}

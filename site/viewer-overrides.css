@@ -1,0 +1,8 @@
+/* Loaded into the PDF.js viewer by app.js (its CSP only allows same-origin stylesheets).
+   Hides controls that don't apply: files come from the library, and BookReader has its own link button. */
+#openFile,
+#secondaryOpenFile,
+#viewBookmark,
+#secondaryViewBookmark {
+  display: none !important;
+}
